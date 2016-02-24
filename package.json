@@ -1,0 +1,35 @@
+{
+  "name": "ak-massive",
+  "version": "0.1.0",
+  "description": "async-kit wrapper for massive-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/async-kit/ak-massive.git"
+  },
+  "keywords": [
+    "database",
+    "stream",
+    "wrapper",
+    "massive",
+    "postgresql",
+    "postgres"
+  ],
+  "author": "Jonathan M. Altman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/async-kit/ak-massive/issues"
+  },
+  "homepage": "https://github.com/async-kit/ak-massive#readme",
+  "peerDependencies": {
+    "massive": "^2.1.0"
+  },
+  "dependencies": {
+    "highland": "^2.6.0",
+    "lodash.get": "^4.1.2",
+    "lodash.set": "^4.0.0"
+  }
+}
